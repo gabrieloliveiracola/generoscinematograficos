@@ -1,0 +1,70 @@
+.sobre{
+    width: 100vw;
+    height: 100vh;
+    background-color: #40131B;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+}
+
+#titulohover{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#paragrafohover{
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+#elemento1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    filter: brightness(50%);
+}
+#elemento1:hover{
+    filter: brightness(100%);
+}
+#explicação1{
+    height: 200px;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.sobre2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00204F;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+}
+
+#titulotransition{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#paragrafotransition{
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+#elemento2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    transition: ease 2s;
+}
+#elemento2:hover{
+    background-color: greenyellow;
+}
+#explicação2{
+    height: 200px;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}

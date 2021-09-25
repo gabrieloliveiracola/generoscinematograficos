@@ -1,0 +1,38 @@
+.ficcaocientifica{
+    width: 100vw;
+    height: 100vh;
+    background-color: #011f00;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 4fr 2fr 1fr;
+}
+#header{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    padding: 10px;
+}
+#titulofc{
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+#paragrafofc{
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+#recomendacoesfc{
+    grid-row: 4/5;
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+#r1fc{
+    grid-column: 1/2;
+}
+#r2fc{
+    grid-column: 2/3;
+}
+#r3fc{
+    grid-column: 3/4;
+}

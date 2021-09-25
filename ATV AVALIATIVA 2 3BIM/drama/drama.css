@@ -1,0 +1,38 @@
+.drama{
+    width: 100vw;
+    height: 100vh;
+    background-color: #010A26;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 4fr 2fr 1fr;
+}
+#header{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    padding: 10px;
+}
+#titulodrama{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#paragrafodrama{
+    grid-row: 3/4;
+    grid-column: 2/5;
+}
+#recomendacoesdrama{
+    grid-row: 4/5;
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+#r1drama{
+    grid-column: 1/2;
+}
+#r2drama{
+    grid-column: 2/3;
+}
+#r3drama{
+    grid-column: 3/4;
+}
